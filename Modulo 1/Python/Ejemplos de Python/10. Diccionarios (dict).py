@@ -7,10 +7,13 @@
 mi_diccionario = {
     "nombre": "Juan",
     "edad": 30,
-    "ciudad": "Madrid"
+    "ciudad": "Madrid",
 }
 # Imprimir el diccionario
+
 print("Diccionario original: ", mi_diccionario)
+
+print(f"Diccionario original: {mi_diccionario}")
 
 # Acceso a elementos del diccionario
 print("\nNombre:", mi_diccionario["nombre"])  # Acceso al valor asociado a la clave "nombre"
@@ -18,7 +21,7 @@ print("Edad:", mi_diccionario["edad"])      # Acceso al valor asociado a la clav
 print("Ciudad:", mi_diccionario["ciudad"])  # Acceso al valor asociado a la clave "ciudad"  
 
 # Modificación de un valor en el diccionario
-mi_diccionario["edad"] = 31  # Cambia el valor asociado a la clave "edad"
+mi_diccionario["edad"] = 1000  # Cambia el valor asociado a la clave "edad"
 print("\nDiccionario después de modificar la edad:", mi_diccionario)
 
 # Añadir un nuevo par clave-valor al diccionario
@@ -41,7 +44,8 @@ for clave in mi_diccionario:
     
 # Iterar sobre los valores del diccionario
 for valor in mi_diccionario.values():
-    print("\nValor:", valor)  # Imprime cada valor del diccionario
+    print("\nValor:", valor)
+    print(f"Estos son los valores de las claves: {valor}") # Imprime cada valor del diccionario
 
 # Iterar sobre los pares clave-valor del diccionario
 for clave, valor in mi_diccionario.items():
