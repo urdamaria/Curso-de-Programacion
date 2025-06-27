@@ -41,6 +41,6 @@ def calcular_area_circulo(radio):
     """Función que calcula el área de un círculo."""
     import math  # Importa el módulo math para usar la constante pi
     return math.pi * (radio ** 2)  # Calcula el área usando la fórmula π * r^2
-radio2 = calcular_area_circulo()  # Calcula el área de un rectángulo de base 5 y altura 3
-print(f"El area del circulo es: {radio2}") 
+radio2 = calcular_area_circulo(4)  
+print(f"El area del circulo es: {radio2:.2f}") 
 
