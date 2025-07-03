@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // 1.1: Seleccionar por ID (el más rápido y específico)
         // Devuelve un único elemento.
         const mainTitle = document.getElementById('main-title');
-        mainTitle.style.color = '#e74c3c'; // Cambiamos el color para ver el efecto
+        mainTitle.style.color = '#cc33ff'; // Cambiamos el color para ver el efecto
         console.log('Elemento por ID:', mainTitle);
 
         // 1.2: Seleccionar por Nombre de Clase
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Elementos por Clase:', highlightedItems);
         // Para manipularlos, debemos iterar sobre la colección.
         for (let item of highlightedItems) {
-            item.style.backgroundColor = '#ecf0f1';
+            item.style.backgroundColor = '#cc33ff';
         }
 
         // 1.3: Seleccionar por Nombre de Etiqueta (Tag)
