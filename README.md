@@ -4,7 +4,7 @@ Bienvenido/a al repositorio del **Curso de Programación**. Aquí encontrarás t
 
 ## Estructura del Curso
 
-- **Módulo 1: Python**
+- **Módulo 1= Python**
   - Fundamentos de programación y lógica básica usando Python.
   - Ejercicios prácticos y ejemplos comentados.
 
