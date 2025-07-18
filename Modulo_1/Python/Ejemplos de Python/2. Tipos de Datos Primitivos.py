@@ -28,6 +28,7 @@ print(saludo.lower())  # Imprime: hola mundo
 
 nombre = "Carlos"
 edad = 30
+pais = "Venezuela"
 # f-string: una forma moderna y fácil de incluir variables en un texto
-mensaje = f"Hola, me llamo {nombre} y tengo {edad} años."
+mensaje = f"Hola, me llamo {nombre}, tengo {edad} años y soy de {pais}."
 print(mensaje) # Imprime: Hola, me llamo Carlos y tengo 30 años.

@@ -6,7 +6,7 @@ if edad < 18:
     print("Eres menor de edad.")
 elif edad == 18:
     print("¡Justo tienes 18 años!")
-else:
+else :
     print("Eres mayor de edad.")
     
 # Explicación:
@@ -89,7 +89,8 @@ elif numero1 < numero2:
 #     print(f"{numero1} es mayor o igual que {numero2}.")
 # elif numero1 <= numero2:
 #     print(f"{numero1} es menor o igual que {numero2}.")
-# Nota: Puedes usar elif para añadir más condiciones, pero recuerda que solo se ejecutará el bloque del primer if o elif que sea verdadero.
+# Nota: Puedes usar elif para añadir más condiciones, pero recuerda que solo se ejecutará el 
+# bloque del primer if o elif que sea verdadero.
 else:
     print("Ninguna de las condiciones anteriores se cumplió.")
     
