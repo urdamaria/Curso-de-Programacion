@@ -2,6 +2,7 @@
 numero1 = input ("dame un numero")
 numero2 = input ("dame un segundo numero")
 if numero1 == numero2:
+
     print(f"{numero1} es igual a {numero2}.")
 elif numero1 != numero2:
     print(f"{numero1} es diferente de {numero2}.")  
