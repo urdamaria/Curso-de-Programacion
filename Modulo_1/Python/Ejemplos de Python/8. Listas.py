@@ -1,5 +1,5 @@
-# Son colecciones ordenadas y mutables (se pueden cambiar). Son como un tren de vagones donde cada vagón tiene un número (índice) y puedes cambiar lo que hay dentro.
-
+# Son colecciones ordenadas y mutables (se pueden cambiar). 
+# Son como un tren de vagones donde cada vagón tiene un número (índice) y puedes cambiar lo que hay dentro.
 # Ejemplo de uso de listas en Python
 
 # Definición de una lista

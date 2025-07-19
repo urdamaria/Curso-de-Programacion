@@ -12,7 +12,7 @@ for nombre in nombres:
 # Bucle for: Se usa para "iterar" o recorrer una secuencia de elementos
 # (como una lista de nombres o un rango de números). Se sabe de antemano cuántas veces se va a repetir
 
-# Bucle for con range: Se usa para repetir un bloque de código un número específico de veces
+# Bucle for con range: Se usa para repetir un bloque de código un número específico de vecs
 for i in range(5):  # Repite 5 veces
     print(f"Iteración {i + 1}")  # Imprime el número de iteración
     

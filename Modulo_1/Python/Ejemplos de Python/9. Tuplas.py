@@ -1,6 +1,7 @@
-# Son colecciones ordenadas pero inmutables (no se pueden cambiar una vez creadas). Son más rápidas y seguras para datos que no deben modificarse, como coordenadas (x, y).
-
-# Son como un tren de vagones donde cada vagón tiene un número (índice) y no puedes cambiar lo que hay dentro, pero puedes ver lo que hay en cada vagón.
+# Son colecciones ordenadas pero inmutables (no se pueden cambiar una vez creadas).
+# Son más rápidas y seguras para datos que no deben modificarse, como coordenadas (x, y).
+# Son como un tren de vagones donde cada vagón tiene un número (índice) y no puedes 
+# cambiar lo que hay dentro, pero puedes ver lo que hay en cada vagón.
 
 # Ejemplo de uso de tuplas en Python
 
